@@ -1,0 +1,3 @@
+@function lighter($main) {
+  @return lighten($main, 15%);
+}

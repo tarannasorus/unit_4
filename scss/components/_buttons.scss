@@ -12,20 +12,40 @@
 
 .default {
   background-color: $blue-color;
+
+  &:hover {
+    background-color: lighter($blue-color);
+  }
 }
 
 .error {
   background-color: $red-color;
+
+  &:hover {
+    background-color: lighter($red-color);
+  }
 }
 
 .info {
   background-color: $info-btn-color;
+
+  &:hover {
+    background-color: lighter($info-btn-color);
+  }
 }
 
 .success {
   background-color: $green-color;
+
+  &:hover {
+    background-color: lighter($green-color);
+  }
 }
 
 .warning {
   background-color: $orange-color;
+
+  &:hover {
+    background-color: lighter($orange-color);
+  }
 }
