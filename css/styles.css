@@ -56,7 +56,7 @@ a {
   padding: 1em 10px;
 }
 
-[class^=col] {
+[class^="col"] {
   margin-top: 10px;
   flex-basis: 100%;
   min-height: 25px;
@@ -247,14 +247,14 @@ a {
     flex-direction: row;
   }
 
-  [class^=col] {
+  [class^="col"] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
 
-  [class^=col] + [class^=col] {
+  [class^="col"] + [class^="col"] {
     margin-left: 10px;
   }
 
