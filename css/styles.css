@@ -280,7 +280,7 @@ a {
     margin-right: initial;
   }
 }
-.img-avatar {
+img-avatar {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -288,8 +288,7 @@ a {
   max-width: 100%;
   max-height: 100%;
 }
-
-.img-frame {
+img-frame {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -298,8 +297,7 @@ a {
   padding: 13px;
   border: 1px solid #ccc;
 }
-
-.img-logo {
+img-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
