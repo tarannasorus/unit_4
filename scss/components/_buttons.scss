@@ -3,7 +3,7 @@
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: $btn-text-color;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -11,21 +11,21 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $blue-color;
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $red-color;
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $info-btn-color;
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: $green-color;
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $orange-color;
 }
